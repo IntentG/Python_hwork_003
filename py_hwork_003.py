@@ -10,7 +10,7 @@ def CalculateNumbers (number):
     list = []
     i = 0
     for char in number:
-        if char == "." or char == ",":
+        if char == "." or char == "," or char == "-":
             char = 0
         list.append(int(char))
         summ = summ + list[i]
